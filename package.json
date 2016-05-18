@@ -1,0 +1,23 @@
+{
+  "name": "koa-oauth2",
+  "version": "1.0.0",
+  "description": "koa oauth2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wskongdesheng/koa-oauth2.git"
+  },
+  "keywords": [
+    "oauth2",
+    "koa"
+  ],
+  "author": "wskongdesheng@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wskongdesheng/koa-oauth2/issues"
+  },
+  "homepage": "https://github.com/wskongdesheng/koa-oauth2#readme"
+}
