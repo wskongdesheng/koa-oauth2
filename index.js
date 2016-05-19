@@ -17,16 +17,6 @@ function OAuth2Server (config) {
   this.accessTokenLifetime = config.accessTokenLifetime !== undefined ?
     config.accessTokenLifetime : 3600;
 }
-OAuth2Server.prototype.authorise = authorise;
+OAuth2Server.authorise = authorise;
 
-/**
- * Grant Middleware
- *
- * Returns middleware that will grant tokens to valid requests.
- * This would normally be mounted at '/oauth/token' e.g.
- *
- * `app.all('/oauth/token', oauth.grant());`
- *
- * @return {Function} middleware
- */
-OAuth2Server.prototype.grant = grant;
+OAuth2Server.grant = grant;
