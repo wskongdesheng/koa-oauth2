@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/wskongdesheng/koa-oauth2/issues"
   },
-  "homepage": "https://github.com/wskongdesheng/koa-oauth2#readme",
-  "dependencies": {
-    "basic-auth": "^1.0.4"
-  }
+  "homepage": "https://github.com/wskongdesheng/koa-oauth2#readme"
 }
